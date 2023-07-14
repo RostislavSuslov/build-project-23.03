@@ -14,17 +14,23 @@
     }
 }
 
+// .sold {
+//     .build {
+//         &:hover {
+//             fill: #ff41417f;
+//             stroke: #ff4141ce;
+//         }
+//     }
+// }
+
 .build {
     cursor: pointer;
     fill: #bdbddb00;
     stroke: #00000000;
-    
     stroke-width: 4px;
     transition: .2s;
 
     &:hover {
-      
-
         fill: #00e5ff4d;
         stroke: #00e5ff;
     }

@@ -1,8 +1,18 @@
-header{
-	height: 7vh;
-	padding: 15px 0;
-	background: #222;
-	a {
-		color: #fff;
-	}
+header {
+    height: 7vh;
+    padding: 15px 0;
+    background: #222;
+
+    a {
+        color: #fff;
+    }
+}
+
+
+.nav-item {
+    margin-right: 30px;
+
+    &:last-child {
+        margin-right: 0;
+    }
 }
